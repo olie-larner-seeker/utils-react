@@ -1,37 +1,9 @@
 import React from "react";
 
-import Hero from "../components/Hero";
-import Paragraph from "../components/Core/Paragraph";
-import Author from "../components/Author";
-import CustomersQuotes from "../components/Customers-Quotes";
-import ContactUs from "../components/Contact-Us";
-import Pricing from "../components/Pricing";
-import LargeQuote from "../components/Large-Quote";
-import Logos from "../components/Logos";
-import WhatsInside from "../components/Whats-Inside";
-import Video from "../components/Video";
-import PostHero from "../components/Post-Hero";
-import SlideHero from "../components/SlideHero";
-import RelatedArticles from "../components/Related-Articles";
-import Image from "../components/Core/Image";
+import ComponentName from "../file-path-to-component";
 
 const blockMapping = {
-  AcfHeroBlock: Hero,
-  AcfAuthorBlock: Author,
-  AcfCustomerQuoteBlock: CustomersQuotes,
-  AcfContactUsBlock: ContactUs,
-  AcfPricingBlock: Pricing,
-  AcfLargeQuoteBlock: LargeQuote,
-  AcfLogosBlock: Logos,
-  AcfWhatsInsideBlock: WhatsInside,
-  AcfVideoBlock: Video,
-  AcfPostHeroBlock: PostHero,
-  AcfSlideHeroBlock: SlideHero,
-  AcfRelatedArticlesBlock: RelatedArticles,
-
-  CoreParagraphBlock: Paragraph,
-  CoreImageBlock: Image,
-  CoreHeadingBlock: Paragraph,
+  AcfComponentNameBlock: ComponentName,
 };
 
 function mapBlocksToComponents(post) {
